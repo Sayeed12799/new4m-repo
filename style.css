@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -15,7 +16,8 @@ section{
    padding-left: 2%;
 }
 .half-width img{
-    80%
+    width: 100%;
+    padding-top: 15px;
 }
 .link-button{
     text-decoration: none;
@@ -24,4 +26,8 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.top-banner{
+    background-image: url(images.4m/top-banner_edited.jpg);
+    background-repeat:no-repeat ;
 }
